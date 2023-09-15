@@ -1,12 +1,13 @@
-// import { useState } from 'react'
+
 import './App.css'
+import Courses from './components/Courses/Courses'
 
 function App() {
-  // const [count, setCount] = useState(0)
+  
 
   return (
-    <>
-      <h1>hi</h1>
+    <><h1 className='text-4xl font-bold'>Course Registration</h1>
+      <Courses></Courses>
     </>
   )
 }
