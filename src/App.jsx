@@ -46,12 +46,15 @@ function App() {
   
 
   return (
-    <><h1 className='text-4xl font-bold mb-6'>Course Registration</h1>
-      <div className='flex gap-5'>
+    <>
+    <div className='mx-2 md:mx-5 lg:mx-10'>
+     <h1 className='text-4xl font-bold mb-6'>Course Registration</h1>
+      <div className='lg:flex gap-5 lg:justify-around'>
       <Courses handleAddToList={handleAddToList}></Courses>
       <List list={list} creditHr={creditHr} remaining={remaining} ></List>
       </div>
       <ToastContainer></ToastContainer>
+    </div>
     </>
   )
 }

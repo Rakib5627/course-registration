@@ -15,7 +15,7 @@ const Courses = ({handleAddToList}) => {
     return (
         <div>
 
-            <div className='grid grid-cols-3 gap-3'>
+            <div className='grid md:grid-cols-2 xl:grid-cols-3 gap-3'>
             {
                 courses.map(course => <Course
                 key={course.id}

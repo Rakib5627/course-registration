@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
 
 const Items = ({items}) => {
-    const {name} = items;
+    const {name , id} = items;
     
     return (
-        <div className=''>
-            <p>{name}</p>                       
+        <div>
+            <p>{id}. {name} </p>                         
         </div>
     );
 };
