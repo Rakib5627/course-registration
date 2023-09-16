@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Introduction to C Programming",
+		"name": "Intro To C Programming",
 		"credit_hour": 1,
 		"image": "https://i.ibb.co/37FHBxj/Rectangle-2-2.png",
 		"price": 18000,
@@ -16,7 +16,7 @@
 		"id": 2
 	},
 	{
-		"name": "Introduction to C++ for DSA",
+		"name": "Introduction to C++",
 		"credit_hour": 10,
 		"image": "https://i.ibb.co/cDVrVrP/Rectangle-2-4.png",
 		"price": 10000,
