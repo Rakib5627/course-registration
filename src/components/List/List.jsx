@@ -4,6 +4,9 @@ import Items from '../Items/Items';
 
 const List = ({list , creditHr , remaining}) => {
 
+
+    // console.log(creditHr , remaining);
+
     return (
         <div className="bg-gray-50 w-64 h-80 rounded-lg p-2">
             <p className='mb-2'>Credit Hour Remaining : {remaining}</p> <hr />
